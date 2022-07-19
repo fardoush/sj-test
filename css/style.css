@@ -1,0 +1,277 @@
+/* ===================[ gOOGLE FONTS ]===================== */
+ @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800;900&display=swap');
+
+
+ /* ===================[ COMMON CSS ]===================== */
+
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: 'Work Sans';
+}
+
+.main-section{
+ width: 100%;
+ height: 100vh; 
+ padding: 100px;
+ /* width: 1920px;
+height: 1265px; */
+background: #FFFFFF;
+}
+
+.header {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ flex-wrap: wrap;
+margin-bottom: 50px;
+}
+
+
+.header h2{
+ font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 56px;
+line-height: 64px;
+letter-spacing: -0.01em;
+text-transform: capitalize;
+color: #004750;
+margin-bottom: 25px;
+}
+
+
+.header p{
+ font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height, or 133% */
+
+text-align: center;
+
+color: #646464;
+
+}
+
+.content-wrapper{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+
+.content-inner{
+display: flex;
+ justify-content: center;
+ align-items: center;
+
+  width: 1302px;
+height: 800px;
+/* left: 309px;
+top: 335px; */
+
+border: 1px solid #157a8c;
+border-radius: 355px;
+}
+
+.content{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 1156px;
+height: 710px;
+left: 382px;
+top: 380px;
+background: #FFFFFF;
+box-shadow: 0px 4px 200px rgba(198, 225, 230, 0.25);
+border-radius: 355px;
+}
+
+.main-contents-wrap{
+display: flex;
+ justify-content: center;
+ align-items: center;
+width: 810px;
+height: 488px;
+border: 1px dashed #008C96;
+border-radius: 355px;
+position: relative;
+}
+
+.main-content-inner{
+display: flex;
+ justify-content: center;
+ align-items: center;
+
+}
+
+
+.main-contents-innr{
+ position: absolute;
+ content: " ";
+ text-align: center;
+ display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+
+}
+.content_1{
+     top: -10%;
+    left: 42%;
+}
+.content_2{
+      top: 7%;
+    left: 0%;
+}
+.content_3{
+        top: 9%;
+    right: -1%;
+}
+.content_4{
+     top: 50%;
+    left: -7%;
+}
+.content_5{
+          top: 86%;
+    left: 13%;
+}
+.content_6{
+      top: 93%;
+    left: 42%;
+}
+.content_7{
+  top: 75%;
+    left: 83%;
+}
+/* .content4{
+  top:-10%;
+}
+.content5{
+  top:-10%;
+}
+.content6{
+  top:-10%;
+}
+.content7{
+  top:-10%;
+} */
+
+.card-img-wrap{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ 
+ 
+ background: #FFFFFF;
+box-shadow: 0px 4px 90px rgba(198, 225, 230, 0.8);
+border-radius: 10px;
+ padding: 5px;
+ width: 80px;
+ height: 70px;
+}
+
+.card-img-wrap img{
+ width: 100%;
+ height: 70px;
+ margin-bottom: 10px;
+}
+
+.main-contents-innr h6{
+ text-align: center;
+ font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+    font-size: 19px;
+    line-height: 24px;
+    text-align: center;
+text-transform: capitalize;
+color: #004750;
+
+}
+
+.sub-content-wrapper{
+ display: flex;
+ justify-content: center;
+ align-items: start;
+ width: 584px;
+height: 314px;
+left: 665px;
+top: 575px;
+ border: 1px solid #D9F3F4;
+border-radius: 355px;
+/* margin-top: 30px; */
+}
+
+.sub-content-inner{
+  margin-top: 30px;
+  /* display: none;
+  opacity: 0; */
+  transition:all 0.3s ease-in;
+}
+.contents-1{
+  display: block!important;
+}
+.contents-2,.contents-3,.contents-4,.contents-5,.contents-6,.contents-7{
+  display:none;
+}
+
+.card{
+ width: 315px;
+ margin-bottom: 15px;
+ border:none;
+ background: #FFFFFF;
+box-shadow: 0px 4px 90px rgba(198, 225, 230, 0.6);
+border-radius: 10px;
+position: relative;
+margin-top: -16px;
+}
+
+
+.card:before{
+  position: absolute;
+  content: " ";
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  background: #FFFFFF;
+  width: 40px;
+  height: 37px;
+  top: -21%;
+    left: 40%;  
+    /* z-index: -1;                         */
+}
+.card .card-body p{
+  font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+/* or 144% */
+
+text-align: center;
+
+color: #646464;
+
+}
+
+.contents-2 .card2:before{
+   position: absolute;
+  content: " ";
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  background: #FFFFFF;
+  width: 40px;
+  height: 37px;
+      top: 10%;
+    left: -10%;
+clip-path: polygon(0 50%, 100% 100%, 100% 0);
+
+}
+
+/* .contents-1{
+  display: block!important;
+} */
